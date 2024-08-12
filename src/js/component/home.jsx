@@ -19,8 +19,8 @@ const Home = () => {
 
   return (
     <div
-      className="bg-secondary text-white d-flex flex-column justify-content-center align-items-center"
-      style={{ height: "100vh" }}
+      className="text-white d-flex flex-column justify-content-center align-items-center"
+      style={{ height: "100vh", background: "#131d36" }}
     >
       <h1 className="fw-bold">Semaforo</h1>
       <div className="bg-black" style={{ width: "10px", height: "70px" }}></div>
